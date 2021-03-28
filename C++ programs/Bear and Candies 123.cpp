@@ -6,7 +6,7 @@ int main()
 	cin>>t;
 	while(t--)
 	{
-		//Declaration
+		//Declaration of variable
 		int a,b,bo=2,li=1,i=1,j=2;
 			cin>>a>>b;
 		while(li<=a && bo<=b)
