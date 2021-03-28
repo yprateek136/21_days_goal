@@ -10,7 +10,7 @@ int main()
 		int N,M,K,d;
 		cin>>N>>M>>K;
 		d=max(N,M)-min(min(N,M)+K ,max(N,M));
-		cout<<d;
+		cout<<d<<endl;
 	}
 	return 0;
 }
