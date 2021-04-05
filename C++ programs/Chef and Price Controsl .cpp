@@ -8,14 +8,14 @@ int main()
 	{
 		int n,k,sum=0,result=0,bsum=0;
 		cin>>n>>k;
-		int a[1000000];
+		int a[n];
 		for(int i=0;i<n;i++)
 		{
 			cin>>a[i];
 			sum+=a[i];
 			if(a[i]>k)
 			{
-				bsum+=k;	
+				bsum+=k;
 			}
 			else
 			{
@@ -23,7 +23,7 @@ int main()
 			}
 		}
 		result=sum-bsum;
-		cout<<result;
+		cout<<result<<endl;
 	}
 	return 0;
 }
