@@ -22,8 +22,6 @@ int main()
 				bsum+=a[i];
 			}
 		}
-//		cout<<"sum="<<sum<<endl;
-//		cout<<"bsum="<<bsum<<endl;
 		result=sum-bsum;
 		cout<<result;
 	}
