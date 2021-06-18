@@ -11,6 +11,7 @@ int main()
 		cin>>n;
 		while(n>0)
 		{
+			//find squre root
 			int x = sqrt(n);
 			cout<<x<<endl;
 			n=n-(x*x);
