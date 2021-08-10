@@ -5,7 +5,7 @@ class Solution{
 public:
     int maxDays(int arr[],int n)
     {
-      
+		int res=0;
         for(int i=0;i<n;i++)
         {
             res=max(res,arr[i]);
