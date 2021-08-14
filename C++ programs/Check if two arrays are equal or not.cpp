@@ -34,6 +34,15 @@ int main()
         // increase the count of elements in first array
         for(ll i=0;i<n;i++)
             cin >> arr[i];
+<<<<<<< HEAD
+=======
+        
+        
+        // iterate through another array
+        // and decrement the count of elements
+        // in the map in which frequency of elements
+        // is stored for first array
+>>>>>>> 2d440093e73a99896d0f746f6452e207a894d879
         for(ll i=0;i<n;i++)
             cin >> brr[i];
         Solution ob;
